@@ -1,0 +1,162 @@
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.authorize-elems{
+    display:flex;
+    position: fixed;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.auth-container{
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 3vh 6vh;
+    width: 40vw;
+    min-height: 30vh;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+.header-container{
+    display: flex;
+    position: sticky;
+    padding: 1% 5%;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+.header-items button{
+    font-size: 24px;
+    font-weight: 500;
+    background:none;
+    border:none;
+    width: 8vw;
+    border-radius: 26px;
+    padding: 2% 5%;
+    transition: 1s;
+}
+.header-items button:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+.page{
+    padding: 2% 5%;
+}
+.profile-head{
+    display: grid;
+    width:100%;
+    grid-template-columns: 8fr 2fr;
+}
+.profile-head nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255,255,255,0.7);
+}
+.profile-head nav button{
+    width: 100%;
+    transition: 1s;
+    background: none;
+    border: none;
+    font-size: 21px;
+    height:5vh;
+}
+.profile-head nav button:hover{
+    background: rgba(0,0,0,0.2);
+}
+button.active{
+    color:darkblue;
+    text-decoration: underline;
+    background-color: white;
+}
+.modal-background{
+    top:0;
+    left:0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 24px;
+    min-width: 30vw;
+    min-height: 30vh;
+    padding: 1px;
+    color: grey;
+    border: 0.5px solid grey;
+}
+.modal-close-icon{
+    width:2vw;
+    background: none;
+    border: none;
+    font-size: 19px;
+    align-self: flex-end;
+    margin-top: 1vh;
+    margin-right: 1vh;
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+    color: black;
+}
+.catalog-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.catalog-head button{
+    background-color: white;
+    border-radius: 8px;
+    border:none;
+    color:black;
+    font-size: 20px;
+    height: 5vh;
+    transition: 1s;
+}
+.catalog-head button:hover{
+    background: rgba(255,255,255,0.6);
+}
+.create-input-box{
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+}
+.create-input-box label{
+    width: auto;
+    font-size: 19px;
+    font-weight: 600;
+}
+.create-input-box input{
+    outline: none;
+    border: none;
+    margin-bottom: 4vh;
+    font-size: 24px;
+    color: dodgerblue;
+    padding-left: 2%;
+    border-bottom: 2px solid darkblue;
+}
