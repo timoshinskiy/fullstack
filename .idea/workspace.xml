@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b438494-afa5-490f-bfdf-e6478bd55790" name="Changes" comment="" />
+    <list default="true" id="6b438494-afa5-490f-bfdf-e6478bd55790" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Basket.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Basket.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/CreateProductModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/CreateProductModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/EditProduct.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/EditProduct.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/Catalog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/Catalog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/services/actionCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/actionCreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/services/deleteProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/deleteProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/services/editProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/editProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/services/getBasket.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/getBasket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/services/getProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/getProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/services/orderProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/orderProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/services/removeOrderProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/removeOrderProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/store/reducers/basketReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/store/reducers/basketReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/store/reducers/productsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/store/reducers/productsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/store/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/store/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/productsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/productsController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routers/productsRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routers/productsRouter.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,8 +50,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "N:/Projects front/fullstack",
     "list.type.of.created.stylesheet": "CSS",
@@ -56,7 +80,7 @@
       <updated>1748335815236</updated>
       <workItem from="1748335816249" duration="54000" />
       <workItem from="1748335943161" duration="238000" />
-      <workItem from="1748336203509" duration="57313000" />
+      <workItem from="1748336203509" duration="73975000" />
     </task>
     <servers />
   </component>

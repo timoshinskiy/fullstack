@@ -6,9 +6,9 @@ const defaultState = {
 export const productsReducer = (state={...defaultState},action) => {
     switch (action.type) {
         case "LOAD_PRODUCTS":
-            return {...state, products: [...action.payload]};
+            return {products: [...action.payload]};
         case "DELETE_PRODUCT":
-            return {...state,products: [...state.products.filter(item=>item!==item.payload)]}
+            return {...state,products: [...state.products].filter(item=>item.id!==item.payload.id)}
         case "ADD_PRODUCT":
             return {...state,products: [...state.products,action.payload]}
         case "ORDER_PRODUCT":

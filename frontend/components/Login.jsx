@@ -23,6 +23,7 @@ const Login = (props) => {
         }
         try{
             const data = await loginAccount(inputObj);
+            console.log(data);
             dispatch(actionCreator.login({...data}));
             navigate('/');
         }catch (e) {

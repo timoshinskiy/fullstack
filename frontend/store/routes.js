@@ -8,6 +8,6 @@ export const publicRoutes = [
     {path: '/', element: Home},
     {path: '/profile', element: Profile},
     {path: '/auth', element: Authorize},
-    {path: 'marketplace', element: Catalog},
+    {path: '/marketplace', element: Catalog},
     {path: '*', element: NF}
 ]

@@ -6,6 +6,7 @@ import {publicRoutes} from "../store/routes.js";
 import Header from "../components/Header.jsx";
 import {useDispatch, useSelector} from "react-redux";
 import actionCreator from "../services/actionCreator.js";
+import Catalog from "../pages/Catalog.jsx";
 
 const App = () => {
     let {auth} = useSelector(state => state.user);
@@ -25,7 +26,7 @@ const App = () => {
                 <Routes>
                     {
                         publicRoutes.map(item => (
-                            <Route path={item.path} element={item.element()}/>
+                            <Route path={item.path} element={<item.element/>}/>
                         ))}
                 </Routes>
         </>

@@ -15,7 +15,8 @@ const CreateProductModal = (props) => {
         price: '0',
     }
     const tryCreate = async () => {
-        const resObj = {...inputObj, creator: user.email}
+        const resObj = {...inputObj, creator: user.username, price: Number(inputObj.price)}
+        console.log(resObj);
         createProduct(resObj).then(res => {
             toast(res);
             dispatch(actionCreator.addProduct(resObj));

@@ -5,12 +5,14 @@ import EditUsername from "../components/EditUsername.jsx";
 import {useDispatch, useSelector} from "react-redux";
 import actionCreator from "../services/actionCreator.js";
 import {useNavigate} from "react-router";
+import Basket from "../components/Basket.jsx";
 
 const Profile = () => {
     const opens = {
         info: <ProfileInfo/>,
         name: <EditUsername/>,
         pass: <EditPassword/>,
+        basket: <Basket/>,
     }
     const [select,setSelect] = useState('info');
     const dispatch = useDispatch();
@@ -34,6 +36,7 @@ const Profile = () => {
                     <button className={select==='info'?'active':''} onClick={()=>setSelect('info')}>Profile info</button>
                     <button className={select==='name'?'active':''} onClick={()=>setSelect('name')}>Edit username</button>
                     <button className={select==='pass'?'active':''} onClick={()=>setSelect('pass')}>Edit password</button>
+                    <button className={select==='basket'?'active':''} onClick={()=>setSelect('basket')}>Basket</button>
                     <button onClick={logout}>Logout</button>
                 </nav>
             </div>

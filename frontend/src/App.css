@@ -5,6 +5,15 @@ body{
     height: 100%;
     background: rgba(0,0,0,0.4);
 }
+button{
+    background: rgba(0,0,0,0.1);
+    transition: 1s;
+    font-size: 18px;
+    border: none;
+}
+button:hover{
+    background: rgba(0,0,0,0.4);
+}
 .authorize-elems{
     display:flex;
     position: fixed;
@@ -159,4 +168,51 @@ button.active{
     color: dodgerblue;
     padding-left: 2%;
     border-bottom: 2px solid darkblue;
+}
+.catalog-container{
+    display: grid;
+    margin-top: 2vh;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 3vw;
+    grid-row-gap: 2vh;
+}
+.catalog-item{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 2% 4%;
+}
+.basket-list{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    row-gap: 2vh;
+}
+.basket-item{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: black;
+    padding: 2% 4%;
+}
+.basket-item-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.basket-item-buttons button{
+    width: 40%;
+    border: none;
+    font-size: 18px;
+    height:5vh;
+    background: rgba(0,0,0,0.1);
+    transition: 1s;
+}
+.basket-item-buttons button:hover{
+    background: rgba(0,0,0,0.4);
 }
