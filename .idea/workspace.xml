@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b438494-afa5-490f-bfdf-e6478bd55790" name="Changes" comment="changes">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6b438494-afa5-490f-bfdf-e6478bd55790" name="Changes" comment="host">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/services/authorizeMail.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/authorizeMail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/services/createProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/createProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/services/deleteProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/deleteProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/services/editProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/editProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/services/getBasket.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/getBasket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/services/getCatalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/getCatalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/services/getProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/getProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/services/loginAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/loginAccount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/services/orderProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/orderProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/services/registerAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/registerAccount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/services/removeOrderProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/services/removeOrderProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +63,7 @@
       <updated>1748335815236</updated>
       <workItem from="1748335816249" duration="54000" />
       <workItem from="1748335943161" duration="238000" />
-      <workItem from="1748336203509" duration="80097000" />
+      <workItem from="1748336203509" duration="80494000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1748501572513</created>
@@ -81,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1748501572513</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="host">
+      <created>1748515738663</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748515738663</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="host" />
+    <option name="LAST_COMMIT_MESSAGE" value="host" />
   </component>
 </project>
